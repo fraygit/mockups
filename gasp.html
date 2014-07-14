@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>CHS IT Tools</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <div class="container">
+
+            <!-- navigation //-->
+            <div class="row">
+                <div class="span12">
+                    <div class="navbar">                    
+                        <div class="navbar-inner">
+                            <ul class="nav">
+                                <a class="brand" href="#">CHS Web Tools</a>
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                        Advanced Forms
+                                        <b class="caret"></b>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a href="#">Primary Options</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">GASP</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Care Plus</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">CVD</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Lifestyle Options</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">SIA</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">B4SC</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">About</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- navigation //-->
+
+            <!-- Breadcrumb //-->
+            <div class="row">
+                <div class="span-12">
+                    <ul class="breadcrumb">
+                        <li>
+                            <a href="index.html">Home</a>
+                            <span class="divider">/</span>
+                        </li>
+                        <li class="active">
+                            Advanced Forms
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Breadcrumb //-->
+
+            <!-- Main Content//-->
+            <div class="row">
+                <div class="span12">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#new" data-toggle="tab">New</a></li>
+                        <li><a href="#list" data-toggle="tab">List Previous</a></li>
+                        <li><a href="#saved" data-toggle="tab">Saved</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="new">
+                            <form class="form-horizontal">
+                                <div class="row">
+                                    <div class="span6">
+                                        <p class="text-center"><b>Base Measurements</b></p>
+                                        <div class="control-group">
+                                            <label class="control-label">Height</label>
+                                            <div class="controls">
+                                                <input type="text" id="height" placeholder="cms" class="span1" required/>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Weight</label>
+                                            <div class="controls">
+                                                <input type="text" id="height" placeholder="kgs" class="span1"/>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Computed BMI</label>
+                                            <div class="controls">
+                                                <input type="text" id="height" placeholder="" class="span1" disabled/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="span6">
+                                        <p class="text-center"><b>Exacerbations (in the Last 12M)</b></p>
+                                        <div class="control-group">
+                                            <label class="control-label">Number of Hospital Admit</label>
+                                            <div class="controls">
+                                                <select class="span1">
+                                                    <option>0</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>6</option>
+                                                    <option>7</option>
+                                                    <option>8</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Number of Emergency Visit</label>
+                                            <div class="controls">
+                                                <select class="span1">
+                                                    <option>0</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>6</option>
+                                                    <option>7</option>
+                                                    <option>8</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Number of Oral Steriods</label>
+                                            <div class="controls">
+                                                <select class="span1">
+                                                    <option>0</option>
+                                                    <option>1</option>
+                                                    <option>2</option>
+                                                    <option>3</option>
+                                                    <option>4</option>
+                                                    <option>5</option>
+                                                    <option>6</option>
+                                                    <option>7</option>
+                                                    <option>8</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="span12">
+                                        <hr/>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="span6">
+                                        <p class="text-center"><b>Symptom Score (in the last 4W)</b></p>
+                                        <div class="control-group">
+                                            <label class="control-label">Nocturnal awakening</label>
+                                            <div class="controls">
+                                                <select class="span2">
+                                                    <option>Never</option>
+                                                    <option>2 or less/week</option>
+                                                    <option>3 or less/week</option>
+                                                    <option>Every Night</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Daytime symptoms</label>
+                                            <div class="controls">
+                                                <select class="span2">
+                                                    <option>Never</option>
+                                                    <option>2 or less/week</option>
+                                                    <option>3 or less/week</option>
+                                                    <option>Every Night</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Activity Limitations</label>
+                                            <div class="controls">
+                                                <select class="span2">
+                                                    <option>Never</option>
+                                                    <option>2 or less/week</option>
+                                                    <option>3 or less/week</option>
+                                                    <option>Every Night</option>
+                                                </select>                                    
+                                            </div>
+                                        </div>
+                                    </div>                                
+                                    <div class="span6">
+                                        <p class="text-center"><b>History</b></p>
+                                        <div class="control-group">
+                                            <label class="control-label">Age of Dx</label>
+                                            <div class="controls">
+                                                <input type="text" id="height" placeholder="" class="span1"/>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="checkbox inline">
+                                                <input type="checkbox" id="inlineCheckbox1" value="option1"> F/H Atopy
+                                            </label>                                        
+                                            <label class="checkbox inline">
+                                                <input type="checkbox" id="inlineCheckbox1" value="option1"> GORD
+                                            </label>                                        
+                                            <label class="checkbox inline">
+                                                <input type="checkbox" id="inlineCheckbox1" value="option1"> Sinusitis
+                                            </label>                                        
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="checkbox inline">
+                                                <input type="checkbox" id="inlineCheckbox1" value="option1"> Hayfever
+                                            </label>                                        
+                                            <label class="checkbox inline">
+                                                <input type="checkbox" id="inlineCheckbox1" value="option1"> Rhinitis
+                                            </label>                                        
+                                            <label class="checkbox inline">
+                                                <input type="checkbox" id="inlineCheckbox1" value="option1"> H'ventilation
+                                            </label>                                        
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="checkbox inline">
+                                                <input type="checkbox" id="inlineCheckbox1" value="option1"> Eczema
+                                            </label>                                        
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Smoking</label>
+                                            <div class="controls">
+                                                <select class="span2">
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                    <option>Ex</option>
+                                                    <option>Passive</option>
+                                                </select>                                    
+                                            </div>
+                                        </div>                                        
+                                        <div class="control-group">
+                                            <label class="control-label">Cigs / day</label>
+                                            <div class="controls">
+                                                <input type="text" class="span1">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Pack Years</label>
+                                            <div class="controls">
+                                                <input type="text" class="span1">
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Flu Vacc</label>
+                                            <div class="controls">
+                                                <select class="span2">
+                                                    <option>Yes</option>
+                                                    <option>Declined</option>
+                                                    <option>No</option>
+                                                </select>                                    
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="span12">
+                                        <hr/>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="span6">
+                                        <p class="text-center"><b>Technique/Adherence/Notes</b></p>
+                                        <div class="control-group">
+                                            <label class="control-label">Inhaler Technique</label>
+                                            <div class="controls">
+                                                <select class="span2">
+                                                    <option>Good</option>
+                                                    <option>Medium</option>
+                                                    <option>Poor</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Medication Adherence</label>
+                                            <div class="controls">
+                                                <select class="span2" required>
+                                                    <option>Good</option>
+                                                    <option>Medium</option>
+                                                    <option>Poor</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Peak Flow Meter</label>
+                                            <div class="controls">
+                                                <select class="span1" required>
+                                                    <option>Yes</option>
+                                                    <option>No</option>
+                                                    <option>n/a</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Action Plan</label>
+                                            <div class="controls">
+                                                <select class="span2" required>
+                                                    <option>Yes</option>
+                                                    <option>Updated today</op+tion>
+                                                    <option>Not yet</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <div class="controls">
+                                                <textarea rows="4"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="span6">
+                                        <p class="text-center"><b>Medications</b></p>
+                                        <div class="control-group">
+                                            <label class="control-label">Short Acting Bronchodilator</label>
+                                            <div class="controls">
+                                                <select class="span3">
+                                                    <option>None</option>
+                                                    <option>Salamon, 100 mcg</option>
+                                                    <option>Respigen, 100 mcg</option>
+                                                    <option>Ventolin, 100 mcg</option>
+                                                    <option>Bricanyl Turnuhaler, 250 mcg</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="control-group">
+                                            <label class="control-label">Usage</label>
+                                            <div class="controls">
+                                                <select class="span3">
+                                                    <option>Never</option>
+                                                    <option>2 less/week</option>
+                                                    <option>3 less/week</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <p class="text-center">
+                                            <button type="button" class="btn btn-info">Decision Support</button>
+                                        </p>
+                                    </div>
+                                </div>  
+                                <div class="row">                              
+                                    <div class="span9">
+                                        <div class="clearfix"></div>
+                                    </div>
+                                    <div class="span3">
+                                        <button type="button" class="btn btn-primary">Submit</button>
+                                        <button type="button" class="btn btn-primary">Save</button>
+                                        <button type="button" class="btn btn-primary">Cancel</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane" id="list">
+                            <div class="row">
+                                <div class="span7">
+                                    <form class="form-search">
+                                      <div class="input-append">
+                                        <input type="text" class="span2 search-query">
+                                        <button type="submit" class="btn">Search</button>
+                                      </div>
+                                    </form>
+                                    <table class="table table-striped table-bordered">
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td><b>Name</b></td>
+                                            <td><b>NHI Number</b></td>
+                                            <td><b>Date</b></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="gasp.html">1</a></td>
+                                            <td><a href="gasp.html">Mickey Mouse</a></td>
+                                            <td><a href="gasp.html">1234</a></td>
+                                            <td>10, June 2014</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="gasp.html">2</a></td>
+                                            <td><a href="#new">Donald Duck</a></td>
+                                            <td><a href="#new">2345</a></td>
+                                            <td>12, June 2014</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="gasp.html">3</a></td>
+                                            <td><a href="gasp.html">John Doe</a></td>
+                                            <td><a href="gasp.html">3456</a></td>
+                                            <td>01, July 2014</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="gasp.html">4</a></td>
+                                            <td><a href="gasp.html">Minnie Mouse</a></td>
+                                            <td><a href="gasp.html">8456</a></td>
+                                            <td>12, July 2014</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="gasp.html">5</a></td>
+                                            <td><a href="gasp.html">Luke Skywalker</a></td>
+                                            <td><a href="gasp.html">3556</a></td>
+                                            <td>14, July 2014</td>
+                                        </tr>
+                                    </table>
+
+                                    <div class="pagination">
+                                      <ul>
+                                        <li><a href="#">Prev</a></li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#">Next</a></li>
+                                      </ul>
+                                    </div>
+                                </div>
+                            </div>                         
+                        </div>
+                        <div class="tab-pane" id="saved">
+                            <div class="row">
+                                <div class="span7">
+                                    <form class="form-search">
+                                      <div class="input-append">
+                                        <input type="text" class="span2 search-query">
+                                        <button type="submit" class="btn">Search</button>
+                                      </div>
+                                    </form>
+                                    <table class="table table-striped table-bordered">
+                                        <tr>
+                                            <td>&nbsp;</td>
+                                            <td><b>Name</b></td>
+                                            <td><b>NHI Number</b></td>
+                                            <td><b>Date</b></td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="gasp.html">1</a></td>
+                                            <td><a href="gasp.html">John Doe</a></td>
+                                            <td><a href="gasp.html">1234</a></td>
+                                            <td>10, June 2014</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="gasp.html">2</a></td>
+                                            <td><a href="#new">Jane Doe</a></td>
+                                            <td><a href="#new">2345</a></td>
+                                            <td>12, June 2014</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="gasp.html">3</a></td>
+                                            <td><a href="gasp.html">John Doe</a></td>
+                                            <td><a href="gasp.html">3456</a></td>
+                                            <td>01, July 2014</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="gasp.html">4</a></td>
+                                            <td><a href="gasp.html">Minnie Mouse</a></td>
+                                            <td><a href="gasp.html">8456</a></td>
+                                            <td>12, July 2014</td>
+                                        </tr>
+                                        <tr>
+                                            <td><a href="gasp.html">5</a></td>
+                                            <td><a href="gasp.html">Luke Skywalker</a></td>
+                                            <td><a href="gasp.html">3556</a></td>
+                                            <td>14, July 2014</td>
+                                        </tr>
+                                    </table>
+
+                                    <div class="pagination">
+                                      <ul>
+                                        <li><a href="#">Prev</a></li>
+                                        <li><a href="#">1</a></li>
+                                        <li><a href="#">2</a></li>
+                                        <li><a href="#">3</a></li>
+                                        <li><a href="#">4</a></li>
+                                        <li><a href="#">5</a></li>
+                                        <li><a href="#">Next</a></li>
+                                      </ul>
+                                    </div>
+                                </div>
+                            </div>                         
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Main Content//-->
+
+            
+            <!-- Footer //-->
+            <div class="row">
+                <div class="span12">
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span12">
+                    <p class="text-center" style="font-size:0.85em;">© Copyright 2014 Comprehensive Care in association with Waitemata PHO</p>
+                </div>
+            </div>
+            <!-- Footer //-->
+
+        </div>
+
+
+        <!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>//-->
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/bootstrap.js"></script>
+
+        <script type="text/javascript">
+            $('.carousel').carousel({
+                interval: 2000
+            });
+        </script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!--
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+        //-->
+    </body>
+</html>
